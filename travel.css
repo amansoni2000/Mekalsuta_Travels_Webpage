@@ -1,0 +1,342 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    color: white;
+    padding: 22px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    margin-inline: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icons i {
+    font-size: 25px;
+    color: black;
+    margin-inline: 20px;
+}
+
+.logo {
+    font-size: 20px;
+    color: black;
+}
+
+#bar {
+    display: none;
+}
+
+.main {
+    background-image: url("rajasthan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.maintext {
+    position: relative;
+    text-align: center;
+    top: 41%;
+    color: white;
+    font-size: 28px;
+}
+
+.maintext button {
+    width: 140px;
+    height: 40px;
+    border: 2px solid orange;
+    background-color: transparent;
+    font-size: 21px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+}
+
+.maintext button:hover {
+    background-color: orange;
+}
+
+.head {
+    text-align: center;
+    padding: 85px;
+}
+
+.head span {
+    color: orange;
+}
+
+.booking {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.booking img {
+    width: 550px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.from {
+    margin-inline: 28px;
+    width: 320px;
+    background-color: white;
+    padding: 22px;
+    box-shadow: 0px 4px 6px rgb(236, 229, 229);
+    border-radius: 4px;
+}
+
+.from input {
+    width: 90%;
+    padding: 8px;
+    font-size: 17px;
+    margin-top: 3px;
+}
+
+.from p {
+    margin-top: 20px;
+}
+
+.packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.packages .card {
+    width: 300px;
+    height: 360px;
+    border-radius: 5px;
+    margin-inline: 20px;
+    box-shadow: 0px 4px 6px rgb(236, 229, 229);
+    margin-top: 11px;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.card p {
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+
+/* .places {
+    display: grid;
+    justify-content: center;
+    width: 50%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: auto;
+    overflow: auto;
+} */
+
+.placecard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* This makes the container take the full viewport height */
+}
+
+.placecard {
+    text-align: center;
+    border: 1px solid #ccc;
+    /* Optional: to add a border around the card */
+    padding: 20px;
+    /* Optional: to add some padding inside the card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Optional: to add a shadow effect */
+    background-color: #fff;
+    /* Optional: to add a background color */
+    border-radius: 10px;
+    /* Optional: to round the corners of the card */
+}
+
+
+/* .places .placecard {
+    /* background-color: white; */
+
+
+/* box-shadow: 0px 4px 6px rgb(226, 225, 225);
+    height: 700px;
+    border-radius: 5px;
+    margin-inline: 7px;
+    margin-top: 28px; */
+
+
+/* }
+
+.placecard img {
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+} */
+
+
+/* .placecard h3 {
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.placecard p {
+    margin-top: 11px;
+    margin-left: 11px;
+} */
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact img {
+    width: 550px;
+}
+
+.contactform {
+    width: 300px;
+    height: 230px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgb(231, 229, 229);
+    margin-top: 122px;
+    padding: 22px;
+}
+
+.contactform input {
+    width: 110px;
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.contactform p {
+    margin-top: 13px;
+}
+
+.contactform button {
+    width: 120px;
+    height: 35px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    /* corrected font size with unit */
+    margin-top: 22px;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin-top: 90px;
+}
+
+.text p {
+    margin-top: 15px;
+}
+
+.loginpage {
+    display: none;
+}
+
+.active1 {
+    display: block;
+    width: 300px;
+    background-color: white;
+    padding: 11px;
+    box-shadow: 0px 4px 4px 6px rgb(227, 226, 226);
+    position: fixed;
+    top: 12%;
+    right: 2%;
+}
+
+.active1 input {
+    width: 90%;
+    padding: 6px;
+    margin-top: 13px;
+}
+
+.active1 button {
+    width: 80px;
+    height: 28px;
+    background-color: orange;
+    color: whites;
+    font-size: 16px;
+    border: none;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width:900px) {
+    ul {
+        display: none;
+    }
+    #bar {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .mainText h1 {
+        font-size: 38px;
+    }
+    .booking img {
+        width: 60%;
+    }
+    .contact img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .mainText h1 {
+        font-size: 30px;
+    }
+    .contactForm {
+        width: 60%;
+    }
+}
